@@ -103,3 +103,10 @@ input[type=submit]:hover {
  li {
   margin-bottom: 10px;
 }
+
+.logo {
+	height: 100px;
+	width: auto;
+	border-radius: 50px;
+	float: left;
+}
