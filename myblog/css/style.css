@@ -105,11 +105,13 @@ input[type=submit]:hover {
 	border-radius: 5px;	 
  	text-decoration: none;
 }
-.project:hover{
+
+.project:hover {
 	border: 1px solid #fff;
 	color: tomato;
  }
 
- li {
-  margin-bottom: 10px;
-}
+
+
+li { margin-bottom: 10px; }
+
