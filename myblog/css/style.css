@@ -109,6 +109,7 @@ input[type=submit]:hover {
 .project:hover {
 	border: 1px solid #fff;
 	color: tomato;
+	margin-bottom: 10px;
  }
 
 
