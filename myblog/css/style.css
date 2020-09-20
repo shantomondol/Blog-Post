@@ -110,6 +110,7 @@ input[type=submit]:hover {
 	border: 1px solid #fff;
 	color: tomato;
 	margin-bottom: 10px;
+	text-decoration: underline;
  }
 
 
