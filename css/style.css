@@ -76,7 +76,7 @@ h2 strong {
 h3 {
 	text-align: center;
 	font-size: 110%;
-	margin-bottom: 15px;
+	margin-bottom: -50px;
 }
 
 span {
@@ -180,6 +180,25 @@ span {
 /*-----------------------------------------------------------*/
 /*----------------------- SKILLS ----------------------------*/
 /*-----------------------------------------------------------*/
+.skills h2 {
+	word-spacing: 2px;
+	text-align: center;
+	margin-bottom: 30px;
+	font-size: 140%;
+	letter-spacing: 1px;
+}
+
+.skills h2:after {
+	content: " ";
+	display: block;
+	height: 2px;
+	width: 100px;
+	margin: 0 auto;
+	background-color: #3b5998;
+	margin-top: 10px;
+
+}
+
 .skills ul { list-style: none; }
 
 .skills ul li {
@@ -204,3 +223,43 @@ span {
 }
 
 .skills { padding: 0; }
+
+
+/*-----------------------------------------------------------*/
+/*----------------------- PROJECT ---------------------------*/
+/*-----------------------------------------------------------*/
+.project-img {
+	width: 100%;
+	height: auto;
+}
+
+.project-details {margin-top: 5px;}
+
+.project-details i {
+	margin-right: 5px;
+	color: #3b5998;
+}
+
+.project-details a:link,
+.project-details a:visited { color: #3b5998; }
+
+.project-details a:hover,
+.project-details a:active { color: #061d4d; }
+
+
+
+/*
+
+.project-img {
+	width: 100%;
+	height: auto;
+}
+
+.project-details {margin-top: 5px;}
+
+.project-details i {
+	margin-right: 5px;
+	color: #3b5998;
+}
+
+*/
