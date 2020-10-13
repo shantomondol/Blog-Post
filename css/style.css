@@ -69,7 +69,25 @@ h1 {
 	font-size: 200%;
 }
 
-h2 strong {
+h2 {
+	word-spacing: 2px;
+	text-align: center;
+	margin-bottom: 20px;
+	font-size: 140%;
+	letter-spacing: 1px;
+}
+
+h2:after {
+	content: " ";
+	display: block;
+	height: 2px;
+	width: 100px;
+	margin: 0 auto;
+	background-color: #3b5998;
+	margin-top: 10px;
+}
+
+strong {
 	color: #000;
 }
 
@@ -138,7 +156,7 @@ span {
 .resume:hover {	border: 1px solid #ccc; }
 
 /*-----------------------------------------------------------*/
-/*-------------------------- NAV ----------------------------*/
+/*-------------------------- ABOUT --------------------------*/
 /*-----------------------------------------------------------*/
 .about-text {
 	width: 70%;
@@ -147,25 +165,6 @@ span {
 	margin-bottom: 30px;
 	line-height: 140%;
 	font-size: 90%;
-}
-
-.about h2 {
-	word-spacing: 2px;
-	text-align: center;
-	margin-bottom: 20px;
-	font-size: 140%;
-	letter-spacing: 1px;
-}
-
-.about h2:after {
-	content: " ";
-	display: block;
-	height: 2px;
-	width: 100px;
-	margin: 0 auto;
-	background-color: #3b5998;
-	margin-top: 10px;
-
 }
 
 .box { padding: 1%; }
@@ -180,25 +179,6 @@ span {
 /*-----------------------------------------------------------*/
 /*----------------------- SKILLS ----------------------------*/
 /*-----------------------------------------------------------*/
-.skills h2 {
-	word-spacing: 2px;
-	text-align: center;
-	margin-bottom: 30px;
-	font-size: 140%;
-	letter-spacing: 1px;
-}
-
-.skills h2:after {
-	content: " ";
-	display: block;
-	height: 2px;
-	width: 100px;
-	margin: 0 auto;
-	background-color: #3b5998;
-	margin-top: 10px;
-
-}
-
 .skills ul { list-style: none; }
 
 .skills ul li {
@@ -233,7 +213,9 @@ span {
 	height: auto;
 }
 
-.project-details {margin-top: 5px;}
+.project-details {
+	margin-top: 5px;
+}
 
 .project-details i {
 	margin-right: 5px;
