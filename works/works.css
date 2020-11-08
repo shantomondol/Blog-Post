@@ -1,0 +1,61 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	font-family: lato, sans-serif;
+	font-size: 20px;
+	font-weight: 300;
+}
+
+section { padding: 80px 0; }
+
+.row {
+	width: 1140px;
+	margin: 0 auto;
+}
+
+h1 {
+	margin-top: 0;
+	margin-bottom: 5px;
+	word-spacing: 4px;
+	font-size: 150%;
+}
+
+p {	
+	margin-bottom: 30px;
+	line-height: 140%;
+	font-size: 90%;
+}
+
+li {
+	color: tomato;
+}
+
+.hire-btn:link,
+.hire-btn:visited {
+	border: 1px solid #211F1F;
+	color: #211F1F;
+	text-decoration-line: all;
+}
+
+.hire-btn:hover,
+.hire-btn:active {
+	border: 1px solid #141518;
+	color: #fff;
+	background-color: #00B2FF;	
+	text-underline-position: all;
+
+}
+
+.btn, 
+input[type=submit] {
+	text-decoration: none;
+	padding: 10px 20px;
+	border-radius: 5px;
+	display: inline-block;
+	transition: background-color 0.5s;
+	margin-right: 5px;
+}
