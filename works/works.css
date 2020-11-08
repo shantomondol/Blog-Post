@@ -5,7 +5,6 @@
 }
 
 body{
-	font-family: lato, sans-serif;
 	font-size: 20px;
 	font-weight: 300;
 }
@@ -17,45 +16,63 @@ section { padding: 80px 0; }
 	margin: 0 auto;
 }
 
+.intro {
+	background-color: #ffe3dd;
+	text-align: center;
+}
+
 h1 {
-	margin-top: 0;
 	margin-bottom: 5px;
 	word-spacing: 4px;
 	font-size: 150%;
+	font-family: "Sofia";
 }
 
 p {	
-	margin-bottom: 30px;
+	margin-bottom: -20px;
 	line-height: 140%;
 	font-size: 90%;
 }
 
 li {
 	color: tomato;
-}
-
-.hire-btn:link,
-.hire-btn:visited {
-	border: 1px solid #211F1F;
-	color: #211F1F;
-	text-decoration-line: all;
-}
-
-.hire-btn:hover,
-.hire-btn:active {
-	border: 1px solid #141518;
-	color: #fff;
-	background-color: #00B2FF;	
-	text-underline-position: all;
-
+	font-family: 'Lobster', cursive;
 }
 
 .btn, 
 input[type=submit] {
-	text-decoration: none;
 	padding: 10px 20px;
 	border-radius: 5px;
 	display: inline-block;
 	transition: background-color 0.5s;
-	margin-right: 5px;
+	text-transform: uppercase;
+	margin: 50px 0 50px 0;
+}
+
+.hire-btn:link,
+.hire-btn:visited {
+	color: #fff;
+	background-color: #00B2FF;	
+	text-decoration: none;
+}
+
+.hire-btn:hover,
+.hire-btn:active {
+	color: #000;
+	background-color: #ffded7;
+	text-decoration: underline;
+}
+
+.contact ul {
+	color: red;
+	text-align: center;
+	font-size: 150%;
+	background-color: #ffe3dd;
+}
+
+.works {
+	background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(works.gif);
+	background-size: cover;
+	background-attachment: fixed;
+	color: #fff;
 }
