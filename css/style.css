@@ -41,8 +41,9 @@ header {
 	height: 100vh;
 	background-image: url(img/mylogo.png);
 	background-repeat: no-repeat;
-	background-size: contain;
+	background-size: 650px 640px;
 	background-position: right;
+	margin-bottom: -50px;
 }
 
 .hero-text {
@@ -104,6 +105,33 @@ span {
 	font-weight: 300;
 }
 
+/*-----------------------------------------------------------*/
+/*----------------------- BUTTONS ---------------------------*/
+/*-----------------------------------------------------------*/
+.btn, 
+input[type=submit] {
+	text-decoration: none;
+	padding: 10px 20px;
+	border-radius: 5px;
+	display: inline-block;
+	transition: background-color 0.5s;
+	margin-right: 5px;
+}
+
+.hire-btn:link, 
+.hire-btn:visited,
+input[type=submit] {
+	background-color: #3b5998;
+	color: #fff;
+}
+
+.hire-btn:hover, 
+.hire-btn:active,
+input[type=submit]:hover {
+	background-color: #fff;
+	color: #3b5998;
+	text-decoration: underline;
+}
 
 /*-----------------------------------------------------------*/
 /*-------------------------- NAV ----------------------------*/
@@ -244,11 +272,5 @@ span {
 	text-align: center;
 	font-size: 64px;
 }
-
-.social-account a{
-	color: red;
-	
-}
-
 
 
