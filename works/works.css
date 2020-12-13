@@ -78,7 +78,7 @@ input[type=submit] {
 }
 
 .works {
-	background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(works.gif);
+	background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(works.gif);
 	background-size: cover;
 	background-attachment: fixed;
 	color: #fff;
