@@ -1,0 +1,28 @@
+/*-----------------------------------------------------------*/
+/*------------------------ MOBILE ---------------------------*/
+/*-----------------------------------------------------------*/
+@media (max-width: 480px) {
+
+	body{
+	font-size: 15px;
+	}
+
+	h1 {
+	word-spacing: 0px;
+	font-size: 100%;
+	text-align: left;
+	margin-top: 20px
+	}
+
+	p {	
+	margin-bottom: -20px;
+	font-size: 90%;
+	}
+
+	.contact ul {
+	text-align: center;
+	font-size: 150%;
+	margin-bottom: 0px;
+	}
+
+}
