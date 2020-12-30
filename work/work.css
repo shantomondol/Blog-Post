@@ -1,0 +1,131 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	font-size: 20px;
+	font-weight: 300;
+	font-family: sans-serif;
+}
+
+section { padding: 80px 0; }
+
+.row {
+	width: 1140px;
+	margin: 0 auto;
+}
+
+header {
+	background-color: #ffded7;
+}
+
+.logo {
+	height: 100px;
+	width: auto;
+	border-radius: 50px;
+	float: left;
+	margin: 5PX -50px;
+}
+
+.btn, 
+input[type=submit] {
+	padding: 10px 20px;
+	border-radius: 5px;
+	display: inline-block;
+	transition: background-color 0.5s;
+	text-transform: uppercase;
+	text-decoration: none;
+	margin: 30px -40px;
+}
+
+.hire-btn:link,
+.hire-btn:visited {
+	color: #fff;
+	background-color: #00B2FF;	
+}
+
+.hire-btn:hover,
+.hire-btn:active {
+	color: #000;
+	background-color: #ffded7;
+	text-decoration: underline;
+}
+
+.contact {
+	text-align: right;
+	font-size: 150%;
+}
+
+
+.intro {
+	background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(works.gif);
+	background-size: contain;
+	opacity: 90%;
+	text-align: center;
+}
+
+h1 {
+	margin-bottom: 5px;
+	word-spacing: 4px;
+	font-size: 150%;
+	font-family: sans-serif;
+	color: #fff;
+}
+
+p {	
+	margin-bottom: -20px;
+	line-height: 140%;
+	font-size: 90%;
+	color: #fff;
+}
+
+.project { background-color: #fff; }
+
+.project-img {
+	width: 40%;
+	height: auto;
+	margin: 0 70px;
+}
+
+.project-details {
+	margin-top: 10px;
+	display: inline-block;
+	text-align: center;
+	font-size: 140%;
+}
+
+.project-details:hover {
+	transform: scale(1.20);
+	transition: transform 1.2s;
+	color: #c7c7c7;
+}
+
+.project-img:hover {
+	transform: scale(1.20);
+	transition: transform 1.2s
+}
+
+.box { padding: 1%; }
+
+footer {
+	background-color: #c8c8c8;
+	color: #000;
+	margin-top: 30px;
+	padding: 30px 0;
+	margin-top: 10px;
+	text-align: center;
+	font-size: 120%;
+}
+
+footer a:link,
+footer a:visited {
+	color: #000;
+}
+
+footer a:active,
+footer a:hover { 
+	color: #f2f2f2;
+	text-decoration: none;
+}
