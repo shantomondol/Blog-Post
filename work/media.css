@@ -4,10 +4,7 @@
 /*-----------------------------------------------------------*/
 @media (max-width: 480px) {
 
-	.row {
-	 width: 480px; 
-	 overflow: hidden;
-	}
+	.row { width: 480px; }
 	
 	.logo {
 	margin: 5PX 0px;
@@ -57,5 +54,6 @@
 
 	footer {;
 	margin-top: -20px;
+	overflow: hidden;
 	}
-}
+	}
