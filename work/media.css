@@ -40,6 +40,8 @@
 	  display: block;
 	  margin-left: auto;
 	  margin-right: 0;
+	overflow: hidden;
+	  
 	}
 
 	.project-details:hover {
@@ -49,8 +51,7 @@
 	}
 
 	.box { 
-	 border: 5px solid #c7c7c7;
-	 overflow: hidden;
+	 border: 5px solid #c7c7c7;	
 	}
 
 	footer {;
