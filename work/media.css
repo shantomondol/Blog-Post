@@ -4,7 +4,6 @@
 @media (max-width: 480px) {
 
 	.row { width: 480px; 
-	overflow: hidden;
 	}
 	
 	.logo {
