@@ -34,14 +34,14 @@
 	  margin-right: auto;
 	  width: 30%;
 	  margin: 20px auto;
+	  overflow: hidden;
 	}
 
 	.project-details {
 	  display: block;
 	  margin-left: auto;
 	  margin-right: 0;
-	overflow: hidden;
-	  
+	  overflow: hidden;
 	}
 
 	.project-details:hover {
