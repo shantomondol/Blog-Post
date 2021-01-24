@@ -73,10 +73,6 @@ header {
     background-color: #F0FFF0;
 }
 
-.logo {
-    width: 50px;
-}
-
 .signIn-btn {
     padding: 8px 28px;
     background-color: #21B573;
@@ -219,18 +215,18 @@ footer ul {
     list-style: none;
 }
 
+.contact-form,
+.contact-btn {
+    width: 100%;
+}
+
 footer ul li {
-    margin-bottom: 10px;
+    display: inline-block;
+    margin-right: 10px;
 }
 
-footer li:first-child {
-    font-weight: 700;
-}
-
-.copyright {
-    color: #CDCDCD;
-    text-align: center;
-    margin-top: 50px;
+footer .row {
+    margin-right: 0;
 }
 
 
@@ -312,5 +308,5 @@ footer li:first-child {
 
 .i-work {
     border: 1px solid rgb(255, 255, 255);
-    margin-bottom: 10px;
+    margin: 20px 0px;
 }
