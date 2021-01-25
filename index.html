@@ -73,7 +73,7 @@
                 <div class="row align-items-center">
                     <div class="col-md-6">
                         <p class="intro">Hi! I am</p>
-                        <h1>Shanto Mondol<br><span>Front-end web developer</span></h1>
+                        <h1>Shanto Mondol<br><span class="animate"></span></h1>
                         <a class="btn btn-outline-primary" href="https://shantomondol.github.io/mywebsite/work/work.html" target="-_blank">Hire Me!</a>
                     </div>
                     <div class="col-md-6">
@@ -403,9 +403,18 @@
 
 
     <!-- bootstrap4 js cdn include -->
+    <script src="js/typed.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script>
+        var typed = new Typed('.animate', {
+            strings: ['Desginer.', 'Front-end web developer.', 'Graphic Designer.', 'Editor.', 'Gamer.'],
+            typeSpeed: 50,
+            backSpeed: 50,
+            loop: true
+        });
+    </script>
 </body>
 
 </html>
