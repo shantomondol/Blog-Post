@@ -2,6 +2,10 @@
 *            Global CSS                *
 ======================================*/
 
+* {
+    scroll-behavior: smooth;
+}
+
 section,
 header {
     margin-bottom: 100px;
@@ -156,81 +160,6 @@ header h1 span {
 
 
 /*======================================
-*            Subject Section           *
-======================================*/
-
-.card-img-top {
-    padding: 20px;
-    width: 100px;
-    height: 200px;
-    transform: scale(1.02);
-    opacity: 100%;
-    transition: transform 0.5s
-}
-
-.card-img-top:hover {
-    transform: scale(1.30);
-    opacity: 100%;
-}
-
-.card-icon {
-    width: 20px;
-    float: left;
-    margin-right: 5px;
-}
-
-.card-footer-icon {
-    margin-top: 20px;
-}
-
-
-/*======================================
-*       Notification Section           *
-======================================*/
-
-#notification {
-    height: 250px;
-    border-radius: 20px;
-    text-transform: uppercase;
-    background-color: #F8FFFB;
-}
-
-#notification button {
-    margin-top: 10px;
-    width: 100%;
-}
-
-
-/*======================================
-*          Footer Section              *
-======================================*/
-
-footer {
-    background-color: #282531;
-    color: #fff;
-    padding: 50px 0;
-}
-
-footer ul {
-    list-style: none;
-}
-
-.contact-form,
-.contact-btn {
-    width: 100%;
-}
-
-footer ul li {
-    display: inline-block;
-    margin-right: 10px;
-}
-
-footer .row {
-    margin-right: 0;
-}
-
-
-/*======================================
 *          button                     *
 ======================================*/
 
@@ -281,13 +210,19 @@ footer .row {
 
 .works {
     background-color: #F4F4F4;
+    padding: 20px;
 }
 
-.col-md-6 img {
-    width: 100%;
+.work-img {
+    width: 120%;
     height: auto;
     float: right;
     padding-right: 4%;
+}
+
+.w-img {
+    width: 100%;
+    height: auto;
 }
 
 .work-step span {
@@ -324,4 +259,62 @@ footer .row {
 .i-work {
     border: 1px solid rgb(255, 255, 255);
     margin: 20px 0px;
+}
+
+
+/*======================================
+*           Card           *
+======================================*/
+
+.card-img-top {
+    padding: 20px;
+    width: 100px;
+    height: 200px;
+    transform: scale(1.02);
+    opacity: 100%;
+    transition: transform 0.5s
+}
+
+.card-img-top:hover {
+    transform: scale(1.30);
+    opacity: 100%;
+}
+
+.card-icon {
+    width: 20px;
+    float: left;
+    margin-right: 5px;
+}
+
+.card-footer-icon {
+    margin-top: 20px;
+}
+
+
+/*======================================
+*          Footer Section              *
+======================================*/
+
+footer {
+    background-color: #282531;
+    color: #fff;
+    padding: 50px 0;
+}
+
+footer ul {
+    list-style: none;
+}
+
+.contact-form,
+.contact-btn {
+    width: 100%;
+}
+
+footer ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+footer .row {
+    margin-right: 0;
 }

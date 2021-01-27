@@ -32,6 +32,11 @@
 
 <body>
 
+    <!-----------------------------------------------------------
+                                HEADER
+    ------------------------------------------------------------>
+
+
     <header>
         <!-- navigation bar start -->
         <nav class="navbar navbar-expand-lg navbar-light bg-green">
@@ -39,7 +44,7 @@
 
                 <!-- logo -->
                 <a class="navbar-brand" href="#">
-                    <img src="images/s.png" alt="Shanto Logo" style="width: 80px; height: 80px;">
+                    <img src="images/dev.png" alt="Shanto Logo" style="width: 80px; height: 80px;">
                 </a>
 
                 <!-- togol button -->
@@ -51,16 +56,16 @@
                 <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link" href="#">About</a>
+                            <a class="nav-link" href="#about">About</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Skills</a>
+                            <a class="nav-link" href="#skills">Skills</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Projects</a>
+                            <a class="nav-link" href="#project">Projects</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Contact</a>
+                            <a class="nav-link" href="#contact">Contact</a>
                         </li>
                         <li class="nav-item">
                             <a href="https://shantomondol.github.io/resume/" target="_blank"><button class="btn btn-outline-success">Resume</button></a> </li>
@@ -79,8 +84,8 @@
                         <h1>Shanto Mondol<br><span class="animate"></span></h1>
                         <a class="btn btn-outline-primary" href="work/work.html" target="-_blank">Hire Me!</a>
                     </div>
-                    <div class="col-md-6">
-                        <img src="images/logo.png" alt="shanto logo" class="illustration-img">
+                    <div class="col-md-6 ">
+                        <img class="illustration-img" src="images/logo.png" alt="shanto logo">
                     </div>
                 </div>
             </div>
@@ -88,10 +93,14 @@
     </header>
     <!-- introduction end -->
 
+    <!-----------------------------------------------------------
+                             ABOUT
+    ------------------------------------------------------------>
+
     <main>
 
         <!-- About Myself section start -->
-        <section>
+        <section id="about">
             <div class="container">
                 <h2 class="sub-heading">About Myself</h2>
 
@@ -143,8 +152,12 @@
         </section>
         <!-- About Myself section end -->
 
+        <!-----------------------------------------------------------
+                             SKILLS
+        ------------------------------------------------------------>
+
         <!-- skills section start -->
-        <section>
+        <section id="skills">
             <div class="container">
                 <h2 class="s sub-heading">My Skills</h2>
                 <div class="row">
@@ -194,6 +207,10 @@
         </section>
         <!-- skills section end -->
 
+        <!-------------------------------------------------------
+                                WORK
+        --------------------------------------------------------->
+
         <!-- works section start -->
         <section id="works" class="works">
             <div class="container">
@@ -201,13 +218,13 @@
 
                 <div class="row">
                     <div class="col-md-6">
-                        <img src="images/wd.png">
+                        <img class="work-img" src="images/wd.png">
                     </div>
 
                     <div class="col-md-6">
                         <div class="i-work">
                             <div class="work-step">
-                                <div><img src="images/work.png" alt="shanto's work icon"></div>
+                                <div><img class="w-img" src="images/work.png" alt="shanto's work icon"></div>
                                 <span>1</span>
                                 <p>First of all I research on my project.</p>
                                 <span>2</span>
@@ -226,8 +243,12 @@
         </section>
         <!-- works section end -->
 
+        <!-----------------------------------------------------------
+                                PROJECT
+        ------------------------------------------------------------>
+
         <!-- projects section start -->
-        <section>
+        <section id="project">
             <div class="container">
                 <h2 class="s sub-heading">My Projects</h2>
                 <div class="row">
@@ -245,8 +266,8 @@
                     <div class="col-md-4">
                         <div class="justify-content-between align-content-between icon-card">
                             <img src="images/programmer.png" alt="w3learning">
-                            <h2>w3learning</h2>
-                            <button class="button"><a href="https://www.w3learning.xyz" target="_blank">Go to website</a></button>
+                            <h2>areaphonebook</h2>
+                            <button class="button"><a href="https://www.areaphonebook.com" target="_blank">Go to website</a></button>
                         </div>
                     </div>
 
@@ -254,8 +275,8 @@
                     <div class="col-md-4">
                         <div class="justify-content-between align-content-between icon-card">
                             <img src="images/programmer.png" alt="areaphonebook">
-                            <h2>areaphonebook</h2>
-                            <button class="button"><a href="https://www.areaphonebook.com/" target="_blank">Go to website</a></button>
+                            <h2>w3learning</h2>
+                            <button class="button"><a href="https://www.w3learning.xyz" target="_blank">Go to website</a></button>
                         </div>
                     </div>
                 </div>
@@ -263,48 +284,23 @@
         </section>
         <!-- projects section end -->
 
+        <!-----------------------------------------------------------
+                                TEAM
+        ------------------------------------------------------------>
+
         <!-- team section start -->
-        <section class="section-team">
+        <section id="team" class="section-team">
             <div class="container">
                 <div class="row justify-content-center text-center">
                     <div class="col-md-8 col-lg-6">
                         <div class="header-section">
                             <h3 class="small-title">My Team</h3>
-                            <h2 class="title">Let's meet with our team members</h2>
+                            <h2 class="title">Let's meet with my team members</h2>
                         </div>
                     </div>
                 </div>
 
                 <div class="row">
-                    <div class="col-sm-4 col-lg-4 col-xl-4">
-                        <div class="single-person">
-                            <div class="person-image">
-                                <a href="https://www.facebook.com/mithunsorkar816" target="_blank"><img src="images/team/shanto.jpg" alt="shanto mondal a front-end web developer"></a>
-                                <span class="icon">
-                                    <img src="images/icon/web.png" alt="web developer icon">
-                                </span>
-                            </div>
-                            <div class="person-info">
-                                <h3 class="full-name">Shanto Mondal</h3>
-                                <span class="speciality">Front-end web developer</span>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-sm-4 col-lg-4 col-xl-4">
-                        <div class="single-person">
-                            <div class="person-image">
-                                <a href="https://www.facebook.com/moinulislam.dev" target="_blank"><img src="images/team/mion.jpg" alt="mionul islam a ninja web developer"></a>
-                                <span class="icon">
-                                   <img src="images/icon/web.png" alt=" web developer icon">
-                                </span>
-                            </div>
-                            <div class="person-info">
-                                <h3 class="full-name">Moinul Islam</h3>
-                                <span class="speciality">Ninja web developer</span>
-                            </div>
-                        </div>
-                    </div>
 
                     <div class="col-sm-4 col-lg-4 col-xl-4">
                         <div class="single-person">
@@ -321,13 +317,46 @@
                         </div>
                     </div>
 
+                    <div class="col-sm-4 col-lg-4 col-xl-4">
+                        <div class="single-person">
+                            <div class="person-image">
+                                <a href="https://www.facebook.com/mithunsorkar816" target="_blank"><img src="images/team/shanto.jpg" alt="shanto mondal a front-end web developer"></a>
+                                <span class="icon">
+                                    <img src="images/icon/web.png" alt="web developer icon">
+                                </span>
+                            </div>
+                            <div class="person-info">
+                                <h3 class="full-name">Shanto Mondal</h3>
+                                <span class="speciality">Web Designer</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-4 col-lg-4 col-xl-4">
+                        <div class="single-person">
+                            <div class="person-image">
+                                <a href="https://www.facebook.com/moinulislam.dev" target="_blank"><img src="images/team/mion.jpg" alt="mionul islam a ninja web developer"></a>
+                                <span class="icon">
+                                   <img src="images/icon/web.png" alt=" web developer icon">
+                                </span>
+                            </div>
+                            <div class="person-info">
+                                <h3 class="full-name">Moinul Islam</h3>
+                                <span class="speciality">Front-end Web developer</span>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
         <!-- team section end -->
 
+        <!-----------------------------------------------------------
+                              CONTACT
+        ------------------------------------------------------------>
+
         <!-- contact section start -->
-        <section>
+        <section id="contact">
             <div class="container">
                 <h2 class="s sub-heading">Contact Me</h2>
                 <div class="row">
@@ -335,7 +364,7 @@
                     <div class="col-md-3">
                         <img src="images/icon/address" alt="address icon">
                         <h2>Address</h2>
-                        <p class="text-justify">MF96+33 <br> Fatullah,pagla, narayanganj, 1421
+                        <p class="text-justify">Pagla-PurboPara, Narayanganj 1421
                         </p>
                     </div>
 
@@ -343,8 +372,7 @@
                     <div class="col-md-3">
                         <img src="images/icon/phone" alt="phone icon">
                         <h2>Phone</h2>
-                        <p class="text-justify">+8801869107346 <br>+8801890944368
-                        </p>
+                        <a href="tel:+08801869107346">+08801869107346</a>
                     </div>
 
                     <!-- Card 3 -->
@@ -353,8 +381,6 @@
                         <h2>Email</h2>
                         <p class="text-justify">
                             <a href="mailto:shantomondol816@gmail.com">Send me a Mail</a>
-                            <br>
-                            <a href="mailto:mr.developer.shanto@gmail.com">Send me a Mail</a>
                         </p>
                     </div>
 
@@ -364,8 +390,6 @@
                         <h2>Facebook Chat</h2>
                         <p class="text-justify">
                             <a href="https://www.facebook.com/messages/t/mithunsorkar816" target="_blank">Send me a Messages</a>
-                            <br>
-                            <a href="https://www.facebook.com/messages/t/shantomondol816" target="_blank">Send me a Messages</a>
                         </p>
                     </div>
 
@@ -375,6 +399,10 @@
         <!-- contact section end -->
 
     </main>
+
+    <!-----------------------------------------------------------
+                             FOOTER
+    ------------------------------------------------------------>
 
     <!-- footer start -->
     <footer>
@@ -396,7 +424,7 @@
                 <div class="col-md-6">
                     <ul>
                         <li>
-                            <a href="01869107346" target="_blank">
+                            <a href="tel:+08801869107346" target="_blank">
                                 <i class="fas fa-phone-square-alt"></i>
                             </a>
                         </li>
@@ -415,7 +443,7 @@
             </div>
             <div class="row">
                 <div class="col-md-12">
-                    <p>© Made with ❤ by Shanto Mondol 2021</p>
+                    <p>© Made with ❤ by Shanto Mondol - 2021</p>
                 </div>
             </div>
         </div>
@@ -432,8 +460,8 @@
 
     <script>
         var typed = new Typed('.animate', {
-            strings: ['Web Desginer.', 'Web developer.', 'Graphic Designer.', 'Video Editor.'],
-            typeSpeed: 50,
+            strings: ['Web Desginer.', 'Web Developer.', 'Graphic Designer.', 'Video Editor.'],
+            typeSpeed: 100,
             backSpeed: 50,
             loop: true
         });
