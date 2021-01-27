@@ -108,9 +108,9 @@
                     <div class="col-md-4">
                         <div class="justify-content-between align-content-between icon-card">
                             <img src="images/icon/graphic.png" alt="editor" class="icon">
-                            <h2>Editor</h2>
-                            <p class="text-justify">An editor is a person who edits (i.e. makes changes to) documents or audio-visual works. The term can also apply to software and hardware tools used to accomplish such changes.An editor works with the screenwriter and producer
-                                of social media.
+                            <h2>Graphic Designer</h2>
+                            <p class="text-justify">A graphic designer is a professional within the graphic design and graphic arts industry who assembles together images to create a piece of design. A graphic designer creates the graphics primarily for published or such as
+                                brochures and advertising
                             </p>
                             <button class="button"><a href="#">Read More</a></button>
                         </div>
@@ -131,9 +131,9 @@
                     <div class="col-md-4">
                         <div class="justify-content-between align-content-between icon-card">
                             <img src="images/icon/gamer.png" alt="gamer" class="icon">
-                            <h2>Gamer</h2>
-                            <p class="text-justify">A gamer (sometimes also called player or electronic athlete and eathlete) is a person who plays interactive games, especially video games, tabletop role-playing games, and skill-based card games, and who plays for usually long
-                                periods of time.
+                            <h2>Editor</h2>
+                            <p class="text-justify">An editor is a person who edits (i.e. makes changes to) documents or audio-visual works. The term can also apply to software and hardware tools used to accomplish such changes.An editor works with the screenwriter and producer
+                                of social media.
                             </p>
                             <button class="button"><a href="#">Read More</a></button>
                         </div>
@@ -148,7 +148,26 @@
             <div class="container">
                 <h2 class="s sub-heading">My Skills</h2>
                 <div class="row">
+
+                    <div class="circlechart col-lg-2" data-percentage="50">PhotoShop</div>
+                    <div class="circlechart col-lg-2" data-percentage="50">Video Editing</div>
+                    <div class="circlechart col-lg-2" data-percentage="90">HTML</div>
+                    <div class="circlechart col-lg-2" data-percentage="60">CSS</div>
+                    <div class="circlechart col-lg-2" data-percentage="10">JavaScript</div>
+
+
                     <!-- Card 1 -->
+                    <div class="col-md-4">
+                        <div class="justify-content-between align-content-between icon-card icon-card-highlight">
+                            <img class="card-img-top" src="images/gp.png" alt="graphic designer">
+                            <h2>Graphic Designer</h2>
+                            <p class="text-justify">A graphic designer is a professional within the graphic design and graphic arts industry who assembles together images to create a piece of design.
+                            </p>
+                            <button class="button"><a href="#">Read More</a></button>
+                        </div>
+                    </div>
+                    <!-- Card 2 -->
+
                     <div class="col-md-4">
                         <div class="justify-content-between align-content-between icon-card icon-card-highlight">
                             <img class="card-img-top" src="images/wd.jpg" alt="web designer">
@@ -158,7 +177,7 @@
                         </div>
                     </div>
 
-                    <!-- Card 2 -->
+                    <!-- Card 3 -->
                     <div class="col-md-4">
                         <div class="justify-content-between align-content-between icon-card icon-card-highlight">
                             <img class="card-img-top" src="images/wd.png" alt="web developer">
@@ -169,29 +188,14 @@
                         </div>
                     </div>
 
-                    <!-- Card 3 -->
-                    <div class="col-md-4">
-                        <div class="justify-content-between align-content-between icon-card icon-card-highlight">
-                            <img class="card-img-top" src="images/gp.png" alt="graphic designer">
-                            <h2>Graphic Designer</h2>
-                            <p class="text-justify">A graphic designer is a professional within the graphic design and graphic arts industry who assembles together images to create a piece of design.
-                            </p>
-                            <button class="button"><a href="#">Read More</a></button>
-                        </div>
-                    </div>
 
-                    <div class="circlechart col-lg-2" data-percentage="90">HTML</div>
-                    <div class="circlechart col-lg-2" data-percentage="60">CSS</div>
-                    <div class="circlechart col-lg-2" data-percentage="10">JavaScript</div>
-                    <div class="circlechart col-lg-2" data-percentage="50">PhotoShop</div>
-                    <div class="circlechart col-lg-2" data-percentage="50">Editing</div>
                 </div>
             </div>
         </section>
         <!-- skills section end -->
 
         <!-- works section start -->
-        <section class="works">
+        <section id="works" class="works">
             <div class="container">
                 <h2 class="sub-heading">How do I work</h2>
 
@@ -203,8 +207,16 @@
                     <div class="col-md-6">
                         <div class="i-work">
                             <div class="work-step">
-                                <div><img src="images/work.png" alt=""></div>
-                                <p class="about">First of all I research on my project. Then i design the project on my computer. Finally i code and implement my project.</p>
+                                <div><img src="images/work.png" alt="shanto's work icon"></div>
+                                <span>1</span>
+                                <p>First of all I research on my project.</p>
+                                <span>2</span>
+                                <p>Then I design the project on my computer.</p>
+                                <span>3</span>
+                                <p>Finally I code and implement my project.</p>
+                            </div>
+                            <div class="work-step">
+
                             </div>
                             <a class="btn btn-outline-primary" href="work/work.html" target="-_blank">Hire Me!</a>
                         </div>
@@ -420,7 +432,7 @@
 
     <script>
         var typed = new Typed('.animate', {
-            strings: ['Desginer.', 'Front-end web developer.', 'Graphic Designer.', 'Editor.', 'Gamer.'],
+            strings: ['Web Desginer.', 'Web developer.', 'Graphic Designer.', 'Video Editor.'],
             typeSpeed: 50,
             backSpeed: 50,
             loop: true
