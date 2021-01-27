@@ -3,6 +3,10 @@
     height: 150px;
 }
 
+.circlechart {
+    margin: 100px 19px 0px;
+}
+
 .circle-chart__circle {
     stroke-width: 2;
     stroke-linecap: square;
@@ -39,15 +43,11 @@
 }
 
 .success-stroke {
-    stroke: #00C851;
+    stroke: #ffbb33;
 }
 
 .warning-stroke {
     stroke: #ffbb33;
-}
-
-.danger-stroke {
-    stroke: #ff4444;
 }
 
 @keyframes circle-chart-fill {

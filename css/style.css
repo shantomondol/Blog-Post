@@ -310,36 +310,3 @@ footer .row {
     border: 1px solid rgb(255, 255, 255);
     margin: 20px 0px;
 }
-
-
-/*======================================
-*            progess bar               *
-======================================*/
-
-.skillBox {
-    box-sizing: border-box;
-    width: 100%;
-    margin: 20px 0;
-    border: 1px solid #000;
-}
-
-.skillBox p {
-    color: #000;
-    text-transform: uppercase;
-    padding: 0;
-    font-family: bold;
-    letter-spacing: 1px;
-    margin: 5px 5px;
-}
-
-.skill {
-    padding: 4px;
-}
-
-.skill-level {
-    background: #0fffb7;
-    width: 100%;
-    height: 10px;
-    margin: 5px 5px;
-    border: 1px solid #000;
-}

@@ -25,6 +25,8 @@
     <!-- Include FontAwsome CDN -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/fontawesome.min.css">
+    <link rel="stylesheet" href="css/progresscircle.css">
+
 
 </head>
 
@@ -177,39 +179,16 @@
                             <button class="button"><a href="#">Read More</a></button>
                         </div>
                     </div>
+
+                    <div class="circlechart col-lg-2" data-percentage="90">HTML</div>
+                    <div class="circlechart col-lg-2" data-percentage="60">CSS</div>
+                    <div class="circlechart col-lg-2" data-percentage="10">JavaScript</div>
+                    <div class="circlechart col-lg-2" data-percentage="50">PhotoShop</div>
+                    <div class="circlechart col-lg-2" data-percentage="50">Editing</div>
                 </div>
             </div>
         </section>
         <!-- skills section end -->
-
-
-        <div class="container">
-            <div class="skillBox">
-                <p>HTML 90%</p>
-                <div class="skill-level" style="width: 90%;"></div>
-            </div>
-
-            <div class="skillBox">
-                <p>CSS 60%</p>
-                <div class="skill-level" style="width: 60%;"></div>
-            </div>
-
-            <div class="skillBox">
-                <p>JavaScript 10% </p>
-                <div class="skill-level" style="width: 10%;"></div>
-            </div>
-
-            <div class="skillBox">
-                <p>PhotoShop 50%</p>
-                <div class="skill-level" style="width: 50%;"></div>
-            </div>
-
-            <div class="skillBox">
-                <p>Edating 50%</p>
-                <div class="skill-level" style="width: 50%;"></div>
-            </div>
-        </div>
-
 
         <!-- works section start -->
         <section class="works">
@@ -437,6 +416,8 @@
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="js/progresscircle.js"></script>
+
     <script>
         var typed = new Typed('.animate', {
             strings: ['Desginer.', 'Front-end web developer.', 'Graphic Designer.', 'Editor.', 'Gamer.'],
@@ -445,6 +426,10 @@
             loop: true
         });
     </script>
+    <script>
+        $('.circlechart').circlechart();
+    </script>
+
 </body>
 
 </html>
