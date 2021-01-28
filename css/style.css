@@ -79,10 +79,17 @@ header {
 
 .signIn-btn {
     padding: 8px 28px;
-    background-color: #21B573;
-    border-radius: 33px;
+    border: 1px solid #FD511A;
+    padding: .375rem .75rem;
+    border-radius: .25rem;
+    position: relative;
+    z-index: 1;
+}
+
+.signIn-btn:hover {
+    background-color: #28a745;
     color: #fff;
-    border: 0;
+    border-color: #28a745;
 }
 
 
