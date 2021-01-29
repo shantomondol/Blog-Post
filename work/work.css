@@ -1,3 +1,7 @@
+/*======================================
+*           	 GLOBAL          	  *
+======================================*/
+
 * {
     margin: 0;
     padding: 0;
@@ -19,6 +23,15 @@ section {
     margin: 0 auto;
 }
 
+.box {
+    padding: 1%;
+}
+
+
+/*======================================
+*            	Header	               *
+======================================*/
+
 header {
     background-color: #ffded7;
 }
@@ -28,11 +41,42 @@ header {
     width: auto;
     border-radius: 50px;
     float: left;
-    margin: 5PX -50px;
+    margin: 5PX -60px;
 }
 
-.btn,
-input[type=submit] {
+.contact {
+    text-align: right;
+    font-size: 140%;
+}
+
+
+/*======================================
+*            	Heading	               *
+======================================*/
+
+h1 {
+    margin-bottom: 5px;
+    word-spacing: 4px;
+    font-size: 150%;
+    font-family: sans-serif;
+    color: #fff;
+    text-align: center;
+}
+
+p {
+    margin-bottom: -20px;
+    line-height: 140%;
+    font-size: 95%;
+    color: #fff;
+    text-align: center;
+}
+
+
+/*======================================
+*            	Butoon	               *
+======================================*/
+
+.btn {
     padding: 10px 20px;
     border-radius: 5px;
     display: inline-block;
@@ -48,17 +92,16 @@ input[type=submit] {
     background-color: #00B2FF;
 }
 
-.hire-btn:hover,
-.hire-btn:active {
+.hire-btn:hover {
     color: #000;
     background-color: #ffded7;
     text-decoration: underline;
 }
 
-.contact {
-    text-align: right;
-    font-size: 150%;
-}
+
+/*======================================
+*            Introduction              *
+======================================*/
 
 .intro {
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(works.gif);
@@ -66,33 +109,22 @@ input[type=submit] {
     opacity: 90%;
 }
 
-h1 {
-    margin-bottom: 5px;
-    word-spacing: 4px;
-    font-size: 150%;
-    font-family: sans-serif;
-    color: #fff;
-    text-align: center;
-}
 
-p {
-    margin-bottom: -20px;
-    line-height: 140%;
-    font-size: 90%;
-    color: #fff;
-    text-align: center;
-}
+/*======================================
+*            	Projects               *
+======================================*/
 
 .project {
     background-color: #fff;
 }
 
 .project-img {
-    width: 40%;
+    width: 80%;
     height: auto;
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 20px;
 }
 
 .project-details {
@@ -113,9 +145,10 @@ p {
     transition: transform 1.2s
 }
 
-.box {
-    padding: 1%;
-}
+
+/*======================================
+*            	Footer	               *
+======================================*/
 
 footer {
     background-color: #c8c8c8;
