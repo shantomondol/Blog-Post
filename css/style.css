@@ -299,6 +299,55 @@ header h1 span {
 
 
 /*======================================
+*          Contact              *
+======================================*/
+
+input[type=text],
+input[type=email],
+select,
+textarea {
+    width: 312%;
+    padding: 7px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+}
+
+input[type=checkbox] {
+    margin: 10px 5px 10px 0;
+}
+
+textarea {
+    height: 100px;
+}
+
+*:focus {
+    outline: none;
+}
+
+label {
+    font-size: 150%;
+}
+
+.c-box {
+    text-align: center;
+    font-weight: 700;
+    color: #413960;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 480px) {
+    input[type=text],
+    input[type=email],
+    select {
+        width: 100%;
+    }
+    #message {
+        width: 100%;
+    }
+}
+
+
+/*======================================
 *          Footer Section              *
 ======================================*/
 
@@ -306,15 +355,11 @@ footer {
     background-color: #282531;
     color: #fff;
     padding: 50px 0;
+    font-size: 20px;
 }
 
 footer ul {
     list-style: none;
-}
-
-.contact-form,
-.contact-btn {
-    width: 100%;
 }
 
 footer ul li {

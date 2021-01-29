@@ -16,6 +16,7 @@
     <!-- internal css -->
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/team.css">
+    <link rel="stylesheet" href="css/grid.css">
     <link rel="stylesheet" href="https://moinulislamdev.github.io/tech-serve-4u/css/style.css">
 
 
@@ -44,7 +45,7 @@
 
                 <!-- logo -->
                 <a class="navbar-brand" href="#">
-                    <img src="images/dev.png" alt="Shanto Logo" style="width: 80px; height: 80px;">
+                    <img src="images/dev.png" alt="Shanto'S Logo" style="width: 100px; height: 100px;">
                 </a>
 
                 <!-- togol button -->
@@ -82,7 +83,7 @@
                     <div class="col-md-6">
                         <p class="intro">Hi! I am</p>
                         <h1>Shanto Mondol<br><span class="animate"></span></h1>
-                        <a class="btn btn-outline-primary" href="index/work.html" target="-_blank">Hire Me!</a>
+                        <a class="btn btn-outline-primary" href="../work" target="-_blank">Hire Me!</a>
                     </div>
                     <div class="col-md-6 ">
                         <img class="illustration-img" src="images/logo.png" alt="shanto logo">
@@ -360,7 +361,7 @@
             <div class="container">
                 <h2 class="s sub-heading">Contact Me</h2>
                 <div class="row">
-                    <!-- Card 1 -->
+
                     <div class="col-md-3">
                         <img src="images/icon/address" alt="address icon">
                         <h2>Address</h2>
@@ -368,14 +369,14 @@
                         </p>
                     </div>
 
-                    <!-- Card 2 -->
+
                     <div class="col-md-3">
                         <img src="images/icon/phone" alt="phone icon">
                         <h2>Phone</h2>
                         <a href="tel:+08801869107346">+08801869107346</a>
                     </div>
 
-                    <!-- Card 3 -->
+
                     <div class="col-md-3">
                         <img src="images/icon/email" alt="email icon">
                         <h2>Email</h2>
@@ -384,7 +385,6 @@
                         </p>
                     </div>
 
-                    <!-- Card 4 -->
                     <div class="col-md-3">
                         <img src="images/icon/facebook" alt="facebook icon">
                         <h2>Facebook Chat</h2>
@@ -394,6 +394,82 @@
                     </div>
 
                 </div>
+            </div>
+
+            <div class="container">
+                <h3 class="c-box">leave a message for me</h3>
+            </div>
+
+            <div class="container">
+
+                <form method="post" action="#">
+                    <div class="row">
+                        <div class="col-md-3">
+                            <label for="name">Name</label>
+                        </div>
+
+                        <div class="col-md-3">
+                            <input type="text" name="text" id="name" placeholder="Type your name" required>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-3">
+                            <label for="email">Email</label>
+                        </div>
+
+                        <div class="col-md-3">
+                            <input type="email" name="email" id="email" placeholder="Enter your email" required>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-3">
+                            <label for="find-me">How can you find me?</label>
+                        </div>
+
+                        <div class="col-md-3">
+                            <select id="find-me">
+                                <option value="friends">Friends</option>
+                                <option value="facebook" selected>Facebook</option>
+                                <option value="search">Search Engine</option>
+                                <option value="ad">Advertisement</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-3">
+                            <label for="notifications">Notifications</label>
+                        </div>
+
+                        <div class="col-md-3">
+                            <input type="checkbox" name="notifications" id="notifications" checked> Yes, Please!
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-3">
+                            <label for="message">Message</label>
+                        </div>
+
+                        <div class="col-md-3">
+                            <textarea id="message" placeholder="Type your message..."></textarea>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-3">
+                            <label><span class="white-space">&nbsp;</span></label>
+                        </div>
+
+                        <div class="col-md-3">
+                            <input type="submit" value="Send" onclick="window.location.href = 'https://forms.gle/vW1TQ3CGbxU176Sk8'">
+                        </div>
+                    </div>
+                </form>
+
             </div>
         </section>
         <!-- contact section end -->
