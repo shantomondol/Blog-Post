@@ -92,6 +92,11 @@ header {
     border-color: #28a745;
 }
 
+.logo {
+    margin-top: -50px;
+    margin-bottom: -50px;
+}
+
 
 /*======================================
 *            Header Section            *
