@@ -14,7 +14,7 @@ header {
 .sub-heading {
     text-align: center;
     font-weight: 700;
-    font-size: 35px;
+    margin-bottom: 50px;
     color: #413960;
 }
 
@@ -36,65 +36,21 @@ header {
     margin-bottom: 15px;
 }
 
-
-/*======================================
-*        Portfolio scetion             *
-======================================*/
-
-.c-space {
-    margin-top: 100px;
-}
-
-.cat-img {
-    width: 100%;
-}
-
-.portfolio-icon {
-    height: 150px;
-    background-color: white;
-    padding: 20px;
-    margin: 10px;
-    border-radius: 10px;
-    box-shadow: 5px 5px 50px #f2f2f2;
-}
-
-.feedback-person {
-    border-radius: 50%;
-}
-
-.card-img-right {
-    width: 30%;
-    border-top-right-radius: 20px;
-    border-bottom-right-radius: 20px;
+h2 {
+    margin-bottom: 10px;
 }
 
 
 /*======================================
-*            Navacation Bar            *
+*            Navigation Bar            *
 ======================================*/
 
 .bg-green {
     background-color: #F0FFF0;
 }
 
-.signIn-btn {
-    padding: 8px 28px;
-    border: 1px solid #FD511A;
-    padding: .375rem .75rem;
-    border-radius: .25rem;
-    position: relative;
-    z-index: 1;
-}
-
-.signIn-btn:hover {
-    background-color: #28a745;
-    color: #fff;
-    border-color: #28a745;
-}
-
 .logo {
-    margin-top: -50px;
-    margin-bottom: -50px;
+    width: 50px;
 }
 
 
@@ -110,9 +66,29 @@ header .row {
     padding: 80px 0;
 }
 
+header h1 {
+    font-weight: 700;
+    font-size: 55px;
+}
+
+header h1 span {
+    color: #21B573;
+}
+
+.hire {
+    margin-top: 10px;
+}
+
+.illustration-img {
+    width: 100%;
+    height: auto;
+    margin-top: -40px;
+    margin-bottom: -80px;
+}
+
 .intro {
     color: #FD511A;
-    font-size: 22px;
+    font-size: 24px;
     margin: -10px 0px;
 }
 
@@ -122,27 +98,24 @@ header .row {
     margin: 22px 0 100px 20px;
 }
 
-header h1 {
-    font-weight: 700;
-}
-
-header h1 span {
-    color: #21B573;
-}
-
-.hero-text {
-    color: #6C6B6B;
-    padding: 20px 0;
-}
-
-.illustration-img {
-    width: 100%;
-    height: auto;
+@media (max-width: 480px) {
+    header h1 {
+        font-size: 38px;
+    }
+    .intro {
+        font-size: 22px;
+    }
+    .illustration-img {
+        width: 95%;
+        height: auto;
+        margin-top: -10px;
+        margin-bottom: -80px;
+    }
 }
 
 
 /*======================================
-*            Section ICON              *
+*            Card ICON                 *
 ======================================*/
 
 .card {
@@ -170,6 +143,22 @@ header h1 span {
     margin-bottom: 30px;
 }
 
+.card-img-top {
+    padding: 20px;
+    transform: scale(1.02);
+    opacity: 100%;
+    transition: transform 0.5s
+}
+
+.card-img-top:hover {
+    transform: scale(1.30);
+    opacity: 100%;
+}
+
+.text-justify {
+    font-size: 1.1em;
+}
+
 
 /*======================================
 *          button                     *
@@ -177,16 +166,15 @@ header h1 span {
 
 .button {
     border-radius: 4px;
-    /* background-color: #fff;  */
     border: none;
     color: #000;
     text-align: center;
     font-size: 20px;
-    padding: 20px;
+    padding: 10px;
     width: 200px;
     transition: all 0.5s;
     cursor: pointer;
-    margin: 0px;
+    margin: 10px 0 0 0;
 }
 
 .button a {
@@ -217,7 +205,7 @@ header h1 span {
 
 
 /*======================================
-*            work                      *
+*            work Section              *
 ======================================*/
 
 .works {
@@ -254,6 +242,8 @@ header h1 span {
 .work-step p {
     font-size: 25px;
     text-align: justify;
+    margin-bottom: 40px;
+    margin-right: 10px;
 }
 
 .work-step div {
@@ -266,40 +256,12 @@ header h1 span {
 
 .works a {
     margin-left: 20px;
+    margin-bottom: 5px;
 }
 
 .i-work {
     border: 1px solid rgb(255, 255, 255);
     margin: 20px 0px;
-}
-
-
-/*======================================
-*           Card           *
-======================================*/
-
-.card-img-top {
-    padding: 20px;
-    width: 100px;
-    height: 200px;
-    transform: scale(1.02);
-    opacity: 100%;
-    transition: transform 0.5s
-}
-
-.card-img-top:hover {
-    transform: scale(1.30);
-    opacity: 100%;
-}
-
-.card-icon {
-    width: 20px;
-    float: left;
-    margin-right: 5px;
-}
-
-.card-footer-icon {
-    margin-top: 20px;
 }
 
 
@@ -323,6 +285,23 @@ input[type=checkbox] {
 
 textarea {
     height: 100px;
+}
+
+#contact img {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#contact {
+    text-align: center;
+}
+
+.text-justify {
+    text-align: center;
 }
 
 *:focus {
@@ -365,6 +344,11 @@ footer {
 
 footer ul {
     list-style: none;
+}
+
+.contact-form,
+.contact-btn {
+    width: 100%;
 }
 
 footer ul li {
