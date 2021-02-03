@@ -50,6 +50,12 @@
     stroke: #ffbb33;
 }
 
+@media (max-width: 480px) {
+    .circle-chart {
+        margin-left: 75px;
+    }
+}
+
 @keyframes circle-chart-fill {
     to {
         stroke-dasharray: 0 100;
