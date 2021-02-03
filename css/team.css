@@ -99,3 +99,12 @@ h4 {
 div .person-info {
     text-align: center;
 }
+
+.section-team a {
+    font-size: 20px;
+    margin-right: 40px;
+}
+
+.section-team .fa-github {
+    color: #000;
+}
