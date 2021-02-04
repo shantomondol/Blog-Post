@@ -87,7 +87,7 @@ h4 {
 
 .section-team .single-person .person-info .speciality {
     text-transform: uppercase;
-    font-size: 14px;
+    font-size: 18px;
     color: #21B573;
 }
 
@@ -101,7 +101,7 @@ div .person-info {
 }
 
 .section-team a {
-    font-size: 20px;
+    font-size: 25px;
     margin-right: 40px;
 }
 

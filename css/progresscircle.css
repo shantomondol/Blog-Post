@@ -52,7 +52,13 @@
 
 @media (max-width: 480px) {
     .circle-chart {
-        margin-left: 75px;
+        margin-left: 130px;
+    }
+}
+
+@media (max-width: 360px) {
+    .circle-chart {
+        margin-left: 70px;
     }
 }
 

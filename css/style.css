@@ -291,18 +291,28 @@ header h1 span {
 
 @media (max-width: 480px) {
     .work-img {
-        margin-right: -30px;
+        margin-right: -20px;
         border: 0.1px solid #ccc;
+        width: 110%;
     }
     .work-step p {
         font-size: 25px;
         text-align: center;
     }
     .works .btn {
-        margin-left: 110px;
+        margin-left: 160px;
     }
     .work-img:hover {
         border: 0.1px solid #000;
+    }
+}
+
+@media (max-width: 360px) {
+    .work-img {
+        margin-right: -15px;
+    }
+    .works .btn {
+        margin-left: 100px;
     }
 }
 
