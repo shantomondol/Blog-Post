@@ -307,6 +307,20 @@ header h1 span {
     }
 }
 
+@media (max-width: 375px) {
+    .work-img {
+        margin-right: -15px;
+        border: 0.1px solid #ccc;
+        width: 110%;
+    }
+    .works .btn {
+        margin-left: 110px;
+    }
+    .work-img:hover {
+        border: 0.1px solid #000;
+    }
+}
+
 @media (max-width: 360px) {
     .work-img {
         margin-right: -15px;

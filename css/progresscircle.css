@@ -56,6 +56,12 @@
     }
 }
 
+@media (max-width: 375px) {
+    .circle-chart {
+        margin-left: 80px;
+    }
+}
+
 @media (max-width: 360px) {
     .circle-chart {
         margin-left: 70px;
