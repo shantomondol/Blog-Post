@@ -6,11 +6,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Hi! I am Shanto Mondol a Web designer and Front-end web developer">
-    <meta name="keywords" content="Shanto Mondol, Web designer, Front-end web developer">
+    <meta name="keywords" content="shanto , mithun, mithun sorkar, shanto mondol, designer, web designer, developer,graphic designer, web developer, front-end web developer">
     <meta name="author" content="Shanto Mondal">
 
     <!-- title data -->
-    <link rel="icon" href="images/dev.png" type="image/gif" sizes="16x16">
+    <link rel="icon" href="images/logo.png" type="image/gif" sizes="16x16">
     <title>Shanto Mondol a Front-end web developer</title>
 
 
@@ -44,7 +44,7 @@
 
                 <!-- logo -->
                 <a class="navbar-brand" href="index.html">
-                    <img src="images/dev.png" alt="Shanto Logo" class="logo">
+                    <img src="images/logo.png" alt="Shanto Logo" class="logo">
                 </a>
 
                 <!-- togol button -->
@@ -88,7 +88,7 @@
                         <a class="btn btn-outline-primary hire" href="work/" target="-_blank">Hire Me!</a>
                     </div>
                     <div class="col-md-6">
-                        <img class="illustration-img" src="images/logo.png" alt="shanto logo">
+                        <img class="illustration-img" src="images/logo1.png" alt="shanto logo">
                     </div>
                 </div>
             </div>
@@ -430,30 +430,37 @@
         <section>
             <div class="container">
 
+
                 <h3 class="c-box">leave a message for me</h3>
 
-                <form method="post" action="#">
-                    <div class="row">
+                <form action="mailto:shantomondol816@gmail.com" method="GET" target="_blank">
+
+                    <!-- name -->
+                    <div class="row ">
                         <div class="col-md-3">
                             <label for="name">Name</label>
                         </div>
 
                         <div class="col-md-3">
-                            <input type="text" name="text" id="name" placeholder="Type your name" required>
+                            <input name="subject" id="subject" type="text" placeholder="type your name">
                         </div>
                     </div>
+                    <br>
 
-                    <div class="row">
+                    <!-- email -->
+                    <div class="row ">
                         <div class="col-md-3">
                             <label for="email">Email</label>
                         </div>
 
                         <div class="col-md-3">
-                            <input type="email" name="email" id="email" placeholder="Enter your email" required>
+                            <input type="email" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="type your email">
                         </div>
                     </div>
+                    <br>
 
-                    <div class="row">
+                    <!-- find -->
+                    <div class="row ">
                         <div class="col-md-3">
                             <label for="find-me">How can you find me?</label>
                         </div>
@@ -468,34 +475,43 @@
                             </select>
                         </div>
                     </div>
+                    <br>
 
-                    <div class="row">
-                        <div class="col-md-3">
-                            <label for="notifications">Notifications</label>
-                        </div>
-
-                        <div class="col-md-3">
-                            <input type="checkbox" name="notifications" id="notifications" checked> Yes, Please!
-                        </div>
-                    </div>
-
-                    <div class="row">
+                    <!-- message -->
+                    <div class="row ">
                         <div class="col-md-3">
                             <label for="message">Message</label>
                         </div>
 
                         <div class="col-md-3">
-                            <textarea id="message" placeholder="Type your message..."></textarea>
+                            <textarea name="body" id="body" placeholder="write a message for me"></textarea>
                         </div>
                     </div>
 
-                    <div class="row">
+
+                    <!-- notifications -->
+                    <div class="row ">
+                        <div class="col-md-3">
+                            <label for="notifications">Notifications</label>
+                        </div>
+
+                        <div class="col-md-3">
+                            <div class="custom-control custom-checkbox">
+                                <input type="checkbox" class="custom-control-input" id="customCheck1">
+                                <label class="custom-control-label" for="customCheck1">Yes, Please!</label>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+
+                    <!-- button -->
+                    <div class="row ">
                         <div class="col-md-3">
                             <label><span class="white-space">&nbsp;</span></label>
                         </div>
 
                         <div class="col-md-3">
-                            <input type="submit" value="Send" onclick="window.location.href = 'https://forms.gle/vW1TQ3CGbxU176Sk8'">
+                            <input type="submit" value="Send Message" class="btns">
                         </div>
                     </div>
                 </form>
